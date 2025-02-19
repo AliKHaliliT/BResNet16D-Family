@@ -7,13 +7,13 @@
 </div>  
 <br/>
 
-This repository provides links to various custom-improved variants of the ResNet16 architecture. 
+This repository provides links to custom-improved variants of the ResNet16 architecture. 
 
 BResNet16 variants are a set of architectures inspired by ResNet but designed with efficiency in mind. Unlike conventional ResNet models, which use basic residual layers (for ResNet-18 and ResNet-34) and bottleneck residual layers (for ResNet-50 and above), BResNet16 variants are optimized for lightweight performance, making it ideal for edge devices and performance-critical applications.
 
 ## Architectural Design
 In traditional ResNet architectures:
-- **Basic residual layers** stack two convolutional layers on the main path and one convolutional layer on the shortcut path. These blocks, while effective, have relatively high computational demands.
+- **Basic residual layers** stack two convolutional layers on the main path and one convolutional layer on the shortcut path.
 - **Bottleneck residual layers** stack three convolutional layers on the main path, with the first and last layers being 1x1 convolutions (bottleneck layers) to reduce computation.
 
 ### Why "16"?
